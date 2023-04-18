@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * FamilyTree
  */
-public class FamilyTree<H extends Human> implements Serializable, FamilyTreeIterator<H> {
+public class FamilyTree<H extends Human> implements Serializable{
 
     private List<Human> familyTree;
     private int id;
