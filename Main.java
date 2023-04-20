@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import model.FamilyTree;
+import model.FileHandler;
+
 public class Main {
     private static void printInvitationForUser() {
         String str = "Выберите операцию и введите соответствующую цифру:\n" + " 1 - для создания списка родственников генеалогического древа \n" +
