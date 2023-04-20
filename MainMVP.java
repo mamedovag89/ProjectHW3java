@@ -5,6 +5,7 @@ import java.util.logging.FileHandler;
 
 import javax.swing.text.View;
 
+import model.FamilyTree;
 import presenter.Presenter;
 
 public class MainMVP {
